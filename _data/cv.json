@@ -1,152 +1,153 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Ye Bhone Lin",
+    "email": "yebhonelin10@gmail.com",
+    "phone": "(+959)88-323-3991",
+    "website": "https://yebhonelin.github.io",
+    "summary": "AI engineer and researcher focused on speech and natural language processing for low-resource Southeast Asian languages, especially Burmese.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Yangon",
+      "countryCode": "MM",
+      "region": "Myanmar"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "QwOP-38AAAAJ",
+        "url": "https://scholar.google.com/citations?hl=en&authuser=1&user=QwOP-38AAAAJ"
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "network": "LinkedIn",
+        "username": "ye-bhone-lin-ai",
+        "url": "https://www.linkedin.com/in/ye-bhone-lin-ai/"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Ye-Bhone-Lin",
+        "url": "https://github.com/Ye-Bhone-Lin"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "Language Understanding Laboratory",
+      "position": "Lab Member",
+      "startDate": "2025-06-01",
+      "endDate": "",
+      "summary": "Research on ASR error correction and speech modeling for low-resource Burmese."
+    },
+    {
+      "name": "Simbolo & SimboloAI",
+      "position": "AI Engineer",
+      "startDate": "2023-11-01",
+      "endDate": "2025-05-01",
+      "summary": "Built educational chatbots, text-to-image systems, and Burmese Romanization tools."
+    },
+    {
+      "name": "Omdena AI",
+      "position": "Junior ML Engineer",
+      "startDate": "2023-08-01",
+      "endDate": "2024-08-01",
+      "summary": "Contributed to global ML projects in weather forecasting, water quality prediction, and early warning systems."
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "University of the People",
+      "area": "Computer Science",
+      "studyType": "Associate of Science",
+      "startDate": "2022-09-01",
+      "endDate": "2024-11-01",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "University of the People",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09-01",
+      "endDate": "2025-11-01",
+      "gpa": "3.75/4.00",
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python", "JavaScript", "SQL", "PostgreSQL"]
+    },
+    {
+      "name": "Machine Learning & AI",
+      "keywords": ["Scikit-learn", "TensorFlow", "PyTorch", "OpenNMT", "Whisper", "LangChain", "CrewAI", "U-Net"]
+    },
+    {
+      "name": "MLOps & Tools",
+      "keywords": ["MLflow", "Evidently", "Docker", "AWS", "Git"]
+    },
+    {
+      "name": "Web & API Development",
+      "keywords": ["FastAPI", "Flask"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Burmese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": ["Low-resource NLP", "Speech Recognition", "ASR Error Correction", "Burmese Language Technology"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "myMedi-Whisper: Construction of Burmese Medical Speech Corpus and Whisper Fine-Tuning for Clinical Dialogue ASR",
+      "publisher": "Under Review",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": "Co-authored conference paper on Burmese medical speech corpus construction and Whisper fine-tuning for clinical dialogue ASR."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "ASR Error Correction in Low-Resource Burmese with Alignment-Enhanced Transformers using Phonetic Features",
+      "publisher": "Proceedings of the 20th IEEE iSAI-NLP AIoT 2025",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": "Co-authored conference paper on alignment-enhanced transformer methods for Burmese ASR error correction."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Machine Learning Teaching Assistant",
+      "institution": "Grace Analytics",
+      "date": "2024-06-01",
+      "role": "Teaching Assistant",
+      "description": "Educate participants in real-time machine learning algorithm development through practical, hands-on instruction."
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "name": "One Project One Week Hackathon Winner",
+      "category": "hackathon",
+      "date": "2025-04-01",
+      "url": "https://github.com/HacktheTechMM/AI_Backend",
+      "description": "Built an AI-powered LMS for rural education with TypeScript, Python, and Laravel."
+    },
+    {
+      "name": "Myanmar Python Hackathon Winner",
+      "category": "hackathon",
+      "date": "2025-10-01",
+      "url": "https://github.com/Ye-Bhone-Lin/Smart-Water-Distribution-Optimization",
+      "description": "Developed a smart water distribution optimization system with ML-based leak detection and predictive maintenance."
     }
   ]
 }

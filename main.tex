@@ -1,0 +1,329 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape \href{https://scholar.google.com/citations?hl=en&authuser=1&user=QwOP-38AAAAJ}{Ye Bhone Lin} }\\ \vspace{1pt}
+    % \href{}
+    % {\underline{Homepage}} $|$
+    \small (+959)88-323-3991 $|$ \href{mailto:yebhonelin10@gmail.com}{\underline{yebhonelin10@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/ye-bhone-lin-ai/}{\underline{linkedin.com/in/ye-bhone-lin-ai}} $|$
+    \href{https://github.com/Ye-Bhone-Lin}{\underline{github.com/Ye-Bhone-Lin}} 
+\end{center}
+
+
+%---------- About ------
+% \section{About}
+% Aspiring AI/NLP researcher with academic research experience at AI Singapore and industry-focused machine learning work at Looloo Technology. I specialize in low-resource Southeast Asian NLP, especially focus on Burmese, building lightweight language processing systems, and contributing open-source datasets.
+
+\section{Research Interest}
+My research experience focuses on \textbf{speech and natural language processing} for \textbf{low-resource languages in Southeast Asia}. Over the past \textbf{two years}, I have worked on \textbf{developing and evaluating machine learning models} under \textbf{data-scarce conditions}, addressing challenges such as \textbf{linguistic diversity}, \textbf{data quality}, and \textbf{model robustness}. I use \textbf{Python} and \textbf{modern deep learning frameworks} to build \textbf{scalable, research-driven AI systems} with \textbf{real-world relevance}.
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of the People}
+      {Pasadena, California}
+      {Associate of Science in Computer Science}{September 2022 -- November 2024}
+
+    \resumeSubheading
+      {University of the People}
+      {Pasadena, California}
+      {Bachelor of Science in Computer Science (GPA: 3.75 / 4.00)}{September 2022 -- November 2025}
+  \resumeSubHeadingListEnd
+
+
+%-----------Achievements-----------
+\section{Achievements}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Hackathon Winner} One Project One Week Hackathon. (2025) \\
+    \textbf{Hackathon Winner} Myanmar Python Hackathon by FTL. (2025) \\
+    \textbf{1st Runner-Up} Code2Career Hackathon. (2025) \\
+    \textbf{1st Runner-Up} Samsung AI Innovation Campus Hackathon. (2024) \\
+    \textbf{Program Participant} Washington Institute Quantum Program
+    (\href{https://www.virtualbadge.io/certificate-validator?credential=725114da-23f5-47d9-9dd9-ea03c4d92c22}{Badge}). (2025) \\
+    \textbf{Professional Certification} Oracle Cloud Infrastructure Generative AI Professional Certified
+    (\href{https://catalog-education.oracle.com/ords/certview/sharebadge?id=753729D85FEEF736CE86DD2066370E35D8C32304CBA3452395F9160D893B4D17}{Badge}). (2025) \\
+    \textbf{Best Game Design Award} Game-Jam Hackathon  by CTLA
+    (\href{https://drive.google.com/file/d/1nmCysvbXliY_4BossazKcHMeyta1N2XD/view?usp=sharing}{Award}). (2022)\\
+    
+    \textbf{Certification} AI
+Fundamentals by DataCamp. (2026) \\
+
+    
+  }}
+\end{itemize}
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experiences}
+  \resumeSubHeadingListStart
+      
+    \resumeSubheading
+      {Lab. Member}{June 2025 -- Present}
+      {Language Understanding Laboratory}{Part-time, Myanmar}
+      \resumeItemListStart
+        \resumeItem{Supervisor \& Lab. Leader: \href{https://sites.google.com/site/yekyawthunlp/}{Dr. Ye Kyaw Thu} (NECTEC, NSTDA, Thailand).}
+        \resumeItem{Developed and implemented \textbf{ASR error correction techniques} for \textbf{low-resource Burmese}, improving \textbf{transcription accuracy} and \textbf{model robustness}.
+        \resumeItem{FineTuned Speech Modeling for Burmese, covering data preprocessing, acoustic modeling.}
+        }
+        \resumeItem{Trained a neural sequence-to-sequence model to automatically correct errors in ASR transcripts.}
+      \resumeItemListEnd
+
+
+    \resumeSubheading
+      {AI Engineer}{Nov 2023 -- May 2025}
+      {Simbolo \& SimboloAI}{Full-time, Myanmar}
+      \resumeItemListStart
+        \resumeItem{Lead the development of a Text-to-Image generator leveraging advanced ML techniques for cultural applications concerning Bagan and Mraukoo.}
+        \resumeItem{Developed the Simbolo Chatbot, an AI-based educational assistant designed to help students learn through interactive conversation in both Burmese and English, powered by custom NLP pipelines and intent recognition.}
+        \resumeItem{Built a robust Romanization system, enabling seamless conversion from Burmese script to Romanized Burmese and vice versa. This tool enhances linguistic accessibility and supports both language learners and researchers by bridging phonetic and written forms.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Junior ML Engineer}{Aug 2023 -- Aug 2024}
+      {Omdena AI}{Part-Time}
+      \resumeItemListStart
+        \resumeItem{Forecasting the Weather in Karachi: Managed data collection and predictive modeling to forecast critical weather conditions.}
+        \resumeItem{Predicting Water Quality in Rwanda: Implemented models that accurately predict water quality, improving community access to safe drinking water.}
+        \resumeItem{Weather Forecasting and Traffic Congestion in SEA: Spearheaded efforts to reduce congestion through accurate weather predictions.}
+        \resumeItem{Building AI-powered Early Warning System in Tanzania.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------TEACHING EXPERIENCE-----------
+\section{Teaching Experiences}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Teaching Assistant}{June 2024 -- Present}
+  {Grace Analytics}{Part Time - Myanmar}
+  \resumeItemListStart
+    \resumeItem{Educate participants in real-time Machine Learning algorithm development, promoting hands-on experience and understanding of core concepts.}
+  \resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+%-----------PUBLICATION-----------
+\section{Publications}
+* means equal contribution. 
+  \resumeSubHeadingListStart
+
+    \item \textbf{International Conferences}
+    \vspace{-5pt}
+
+
+      \resumeItemListStart
+
+      \resumeItem{
+Ye Kyaw Thu, \underline{Ye Bhone Lin}*, Thura Aung* Min Thiha Tun, Htet Arkar, Myat Oo Swe, Thet Htet San, Thazin Myint Oo, Thepchai Supnithi,
+\textbf{``myMedi-Whisper: Construction of Burmese Medical Speech Corpus and Whisper Fine-Tuning for Clinical Dialogue ASR."}
+(Under Review)
+}
+\vspace{5pt}
+        \resumeItem{
+        \underline{Ye Bhone Lin}*, Thura Aung*, Ye Kyaw Thu, and Thazin Myint Oo, 
+        \textbf{``ASR Error Correction in Low-Resource Burmese with Alignment-Enhanced Transformers using Phonetic Features,"}
+        Proceedings of the 20th IEEE iSAI-NLP AIoT 2025.
+        }
+
+      \resumeItemListEnd
+      
+%-----------Hackathon Project-----------
+\section{Hackathon Experience}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Winner}{April 2025}
+  {One Project One Week Hackathon (\href{https://github.com/HacktheTechMM/AI_Backend}{Project Link})}{Myanmar}
+  \vspace{1mm}
+  \resumeItemListStart
+    \resumeItem{Built a web-based Learning Management System (LMS) using TypeScript, Python, and Laravel to support rural education initiatives.}
+    \resumeItem{Implemented AI-powered features including roadmap, assistant, quizzes, coding interviews, and mock interview tests.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Winner}{October 2025}
+  {Myanmar Python Hackathon (\href{https://github.com/Ye-Bhone-Lin/Smart-Water-Distribution-Optimization}{Project Link})}{Myanmar}
+    \vspace{1mm}
+  \resumeItemListStart
+    \resumeItem{Developed a Smart Water Distribution Optimization system using Python and Machine Learning for SDG-aligned infrastructure.}
+    \resumeItem{Implemented ML-based leak detection and predictive pump maintenance using historical and real-time data.}
+    \resumeItem{Designed network simulation and optimization workflows with synthetic data generation.}
+
+  \resumeItemListEnd
+
+\resumeSubheading
+  {1st Runner Up}{November 2025}
+  {Code2Career Hackathon (\href{https://github.com/FloodSync/ai-service-backend}{Project Link})}{Yangon, Myanmar}
+    \vspace{1mm}
+  \resumeItemListStart
+    \resumeItem{Created \textbf{FloodSync}, a mobile app for real-time flood monitoring and disaster response.}
+    \resumeItem{Implemented AI chatbot assistance, safety alerts, push notifications, and offline resources.}
+    \resumeItem{Enabled in-app requests for essential supplies during emergencies.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {1st Runner Up}{September 2024}
+    {Samsung AI Innovation Campus Hackathon (\href{https://github.com/Ye-Bhone-Lin/orion_robot_features/tree/main}{Project Link})}{Yangon, Myanmar}
+    \vspace{1mm}
+  \resumeItemListStart
+    \resumeItem{Developed an autonomous waiter robot capable of carrying food and beverages.}
+    \resumeItem{Implemented line-following navigation and text-to-speech (TTS) human–robot interaction.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Finalist}{May 2025}
+      {TraeIDE: Zero Limit Hackathon (\href{https://github.com/Lablab-DeepAI/GitGuard-AI}{Project Link})}{International}
+    \vspace{1mm}
+  \resumeItemListStart
+    \resumeItem{Built \textbf{GitGuard AI}, an IDE agent that detects and prevents API key leaks in real time.}
+    \resumeItem{Integrated LLMs from Novita.ai and Hugging Face with automatic fallback and instant IDE feedback.}
+    \resumeItem{Implemented auto-fix suggestions and real-time secret scanning directly within the IDE plugin.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Programming Languages:} Python, JavaScript (Agentic AI), SQL, PostgreSQL \\
+    \textbf{Machine Learning \& AI:} Scikit-learn, TensorFlow, PyTorch, OpenNMT, Whisper, LangChain, CrewAI, U-Net \\
+    \textbf{MLOps \& Tools:} MLflow, Evidently, Docker, AWS, Git \\
+    \textbf{Web \& API Development:} FastAPI, Flask
+  }}
+\end{itemize}
+
+
+%-----------References-----------
+%\section{Reference}
+%\begin{itemize}[leftmargin=0.15in, label={}]
+ % \small{\item{
+    %\textbf{\href{https://sites.google.com/site/yekyaw%thunlp/}{Dr. Ye Kyaw Thu}}{, Visiting Professor, National Science and Technology Development Agency (NSTDA), Thailand.} \\
+    %Email: yekyaw.thu@nectec.or.th, %ykt.nlp.ai@gmail.com
+  %}}
+%\end{itemize}
+
+%-------------------------------------------
+\end{document}

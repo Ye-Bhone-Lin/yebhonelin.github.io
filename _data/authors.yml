@@ -1,18 +1,10 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Ye Bhone Lin:
+  name        : "Ye Bhone Lin"
+  uri         : "https://yebhonelin.github.io"
+  email       : "yebhonelin10@gmail.com"
+  bio         : "AI engineer and researcher focused on low-resource Burmese NLP and speech technologies."
+  avatar      : "profile.png"
+  linkedin    : "ye-bhone-lin-ai"
+  github      : "Ye-Bhone-Lin"
