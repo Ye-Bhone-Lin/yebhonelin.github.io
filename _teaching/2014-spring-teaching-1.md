@@ -1,20 +1,12 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching Assistant"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Machine Learning Foundation course"
+permalink: /teaching/machine-learning-foundation
+venue: "Grace Analytics"
+date: 2024-06-01
+location: "Yangon, Myanmar"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Educate participants in real-time Machine Learning algorithm development, promoting hands-on experience and
+understanding of core concepts of Machine Learning.

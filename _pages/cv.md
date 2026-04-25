@@ -11,54 +11,69 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Computer Science (GPA: 3.75 / 4.00), University of the People, 2022 -- 2025
+* A.S. in Computer Science, University of the People, 2022 -- 2024
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* June 2025 -- Present: Lab. Member
+  * Language Understanding Laboratory
+  * Duties included: Developed ASR error correction techniques for low-resource Burmese; Fine-tuned Speech Modeling; Trained neural seq2seq models.
+  * Supervisor: Dr. Ye Kyaw Thu
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Nov 2023 -- May 2025: AI Engineer
+  * Simbolo & SimboloAI
+  * Duties included: Led Text-to-Image generator development; Developed Simbolo Chatbot; Built Burmese Romanization system.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* Aug 2023 -- Aug 2024: Junior ML Engineer
+  * Omdena AI
+  * Duties included: Managed weather forecasting data in South Alfrica and SEA; Implemented water quality prediction models in Rwanda; Spearheaded traffic congestion reduction efforts in SEA.
+
+Achievements
+======
+* **Hackathon Winner**, One Project One Week Hackathon (2025)
+* **Hackathon Winner**, Myanmar Python Hackathon by FTL (2025)
+* **1st Runner-Up**, Code2Career Hackathon (2025)
+* **1st Runner-Up**, Samsung AI Innovation Campus Hackathon (2024)
+* **Program Participant**, Washington Institute Quantum Program (2025)
+* **Professional Certification**, Oracle Cloud Infrastructure Generative AI Professional (2025)
+* **Best Game Design Award**, Game-Jam Hackathon by CTLA (2022)
+* **Certification**, AI Fundamentals by DataCamp (2026)
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming Languages:** Python, JavaScript (Agentic AI), SQL, PostgreSQL
+* **Machine Learning & AI:** Scikit-learn, TensorFlow, PyTorch, OpenNMT, Whisper, LangChain, CrewAI, U-Net
+* **MLOps & Tools:** MLflow, Evidently, Docker, AWS, Git
+* **Web & API Development:** FastAPI, Flask
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+Hackathon Experience
+======
+* **Winner (April 2025):** One Project One Week Hackathon - Built an AI-powered LMS for rural education.
+* **Winner (October 2025):** Myanmar Python Hackathon - Developed Smart Water Distribution Optimization system.
+* **1st Runner Up (November 2025):** Code2Career Hackathon - Created FloodSync mobile app for disaster response.
+* **1st Runner Up (September 2024):** Samsung AI Innovation Campus Hackathon - Developed an autonomous waiter robot.
+* **Finalist (May 2025):** TraeIDE: Zero Limit Hackathon - Built GitGuard AI IDE agent for secret detection.
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Lab Member at Language Understanding Laboratory
+* Junior ML Engineer at Omdena AI

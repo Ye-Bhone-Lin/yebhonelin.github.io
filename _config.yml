@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "AI engineer and researcher focused on low-resource Burmese NLP and speech technologies."
   location         : "Myanmar"
-  employer         : "Language Understanding Laboratory"
+  employer         : "Language Understanding Lab"
   uri              : # URL
   email            : "yebhonelin10@gmail.com" 
 
@@ -84,12 +84,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  preprints:
+    title: 'Preprint/Under Review'
   conferences:
     title: 'Conference Papers'
+  manuscripts:
+    title: 'Journal Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -138,7 +138,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : 
 facebook:
   username               :
   app_id                 :
