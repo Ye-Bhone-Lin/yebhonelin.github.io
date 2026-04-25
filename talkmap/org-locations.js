@@ -1,22 +1,37 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.5074456,
-    -0.1277653
+    "AI Training for Youth Innovation (She Innovates Program)<br />Impact Hub (Youth Program, She Innovates); Myanmar",
+    17.1750495,
+    95.9999652
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7879363,
-    -122.4075201
+    "Youth Speak Forum: AI, Leadership, and Future Careers<br />Youth Speak Forum (AIESEC); Myanmar",
+    17.1750495,
+    95.9999652
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "The Future of AI and Your Career<br />Brilliance; Myanmar",
+    17.1750495,
+    95.9999652
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "The Future of AI: Trends, Opportunities, and Challenges<br />Build Myanmar; Myanmar",
+    17.1750495,
+    95.9999652
+  ],
+  [
+    "Gemma: Lightweight AI Models for Real-World Applications<br />DevFast (GDG Yangon); Yangon, Myanmar",
+    16.7967129,
+    96.1609916
+  ],
+  [
+    "How AI Agents Work: From Concept to Implementation<br />GURU Edu; Myanmar",
+    17.1750495,
+    95.9999652
+  ],
+  [
+    "AI Webinars Series: Practical AI for Learners<br />CSO Academy & E-Learning Hub; Online",
+    43.5904719,
+    3.8595132
   ]
 ];
